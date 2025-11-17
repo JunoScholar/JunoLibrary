@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact &amp; Commissions – JunoLibrary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Juno for inquiries about story codices, worldbuilding collaborations, or adaptation possibilities.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="brand-title">JunoLibrary</div>
+          <div class="brand-subtitle">Worlds, codices, and quiet stargazing</div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="worlds.html">Worlds &amp; Codices</a></li>
+            <li><a href="characters.html">Character Hall of Fame</a></li>
+            <li><a href="about.html">About the Creator</a></li>
+            <li><a href="contact.html">Contact &amp; Commissions</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-section">
+        <div class="container">
+          <h1 class="section-title">Contact &amp; Commissions</h1>
+          <p class="section-subtitle">
+            For serious inquiries about story codices, worldbuilding collaborations, or adaptation rights, you’re welcome to reach out. 
+            I’m slow and careful with projects, but I’m always open to listening.
+          </p>
+
+          <article class="card contact-card">
+            <p class="contact-line">
+              <strong>Email:</strong> <span>your-email-here@example.com</span>
+            </p>
+            <p class="contact-line">
+              You can use this address to ask about:
+            </p>
+            <ul class="about-list">
+              <li>Existing worlds and codices you’d like to read more about</li>
+              <li>Custom worldbuilding or character work within a new project</li>
+              <li>Discussion of adaptation rights for a specific setting</li>
+            </ul>
+            <p class="contact-line" style="margin-top:0.9rem;">
+              If you prefer, you can also link to a social profile or form here later. For now, email is enough.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> JunoLibrary. All worlds and codices by Juno.</div>
+        <div>I read slowly but I do read. Thank you for reaching out.</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
