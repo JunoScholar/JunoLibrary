@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JunoLibrary – Worlds, Codices, and Characters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to JunoLibrary. Come in, get comfortable, and explore worlds being born every day. Wander the Hall of Heroes and browse the Bestiary Wing.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="brand-title">JunoLibrary</div>
+          <div class="brand-subtitle">Worlds, codices, and quiet stargazing</div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="worlds.html">Worlds &amp; Codices</a></li>
+            <li><a href="characters.html">Character Hall of Fame</a></li>
+            <li><a href="about.html">About the Creator</a></li>
+            <li><a href="contact.html">Contact &amp; Commissions</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="hero-kicker">Welcome to the Library</div>
+            <h1 class="hero-title">I am <span>Juno</span>, and this is where new worlds are born.</h1>
+            <p class="hero-text">
+              Come in, get comfortable, and explore stories drifting through a shared multiverse. 
+              Wander the Hall of Heroes, browse strange bestiaries, and linger in the magic between pages.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="worlds.html">Explore My Worlds</a>
+              <a class="button button-ghost" href="characters.html">Meet My Characters</a>
+            </div>
+            <p class="hero-note">
+              I build deep, character-driven fantasy universes with full codices – lore, magic, timelines, and emotional arcs ready for long-form storytelling.
+            </p>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="hero-panel-inner">
+              <div class="star-grid-title">Tonight in JunoLibrary</div>
+              <div class="star-grid">
+                <div class="star-pill">
+                  Hall of Heroes
+                  <span>Recurring protagonists, guardians, and troublemakers who anchor entire sagas.</span>
+                </div>
+                <div class="star-pill">
+                  Worlds &amp; Codices
+                  <span>Mythic timelines, celestial politics, cozy shops, and faerie tragedies.</span>
+                </div>
+                <div class="star-pill">
+                  Bestiary Wing
+                  <span>Faeries, Peri, angelic runaways, candy-born beings, and more.</span>
+                </div>
+                <div class="star-pill">
+                  Quiet Stargazing
+                  <span>Sit with me on the balcony edge. We can look up and talk about what these worlds could become.</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> JunoLibrary. All worlds and codices by Juno.</div>
+        <div>Built as a quiet corner of the multiverse.</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Simple year updater
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
