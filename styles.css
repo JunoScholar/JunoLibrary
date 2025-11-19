@@ -408,3 +408,11 @@ footer a {
 footer a:hover {
   color: #5ae4ff;
 }
+
+.bestiary-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
